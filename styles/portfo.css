@@ -2,6 +2,8 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+/* banner styles */
+
 .container {
     position: relative;
 }
@@ -47,6 +49,52 @@
     border: 0ch;
   }
 
+  /* About Me Styles */
+
+  .myself {
+    display: flex;
+    gap: 200px;
+  }
+
+  .my-photo {
+    margin-top: 130px;
+    margin-left: 205px;
+  }
+
+  .about-title {
+    margin-top: 200px;
+    font-weight: 700;
+    font-size: 50px;
+  }
+
+  .about-description {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .skills {
+    font-weight: 600;
+    font-size: 25px;
+  }
+
+  .list {
+    font-weight: 600;
+    font-size: 15px;
+  }
+
+  .experience {
+    font-weight: 600;
+    font-size: 25px;
+  } 
+
+  .list-experience {
+    font-weight: 600;
+    font-size: 15px;
+  }
+
+  /* Information Styles */
+
   .information {
     display: flex;
     gap: 100px;
@@ -57,53 +105,224 @@
     weight: 15px;
   }
   
-.person {
+  .person {
     padding-top: 130px;
     padding-left: 206px;
-}
+  }
 
-.info {
+  .info {
     padding-top: 330px;
     padding-right: 500px;
-}
+  }
 
-.info-list {
-    list-style: none;
-    padding-left: 0px;
-}
-
-.info-title {
+  .info-title {
     font-weight: 900;
      font-size: 40px;
     line-height: 47px;
-}
+  }
 
-.info-description {
+  .info-description {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     color: #444343;
     padding-top: 0px;
     padding-bottom: 10px;
-}
+  }
 
-.plan {
+  .info-list {
+    list-style: none;
+    padding-left: 0px;
+  }
+
+  /* Plan Styles */
+
+  .plan {
     text-align: center;
-    padding-top: 130px;
+    margin-top: 130px;
     font-weight: 700;
     font-size: 35px;
-}
+    margin-bottom: 80px;
+  }
 
-.plans {
+  .plans {
     display: flex;
-    gap: 86px;
+    gap: 95px;
     align-items: center;   
-    margin-bottom: 60px;
-    margin-left: 590px;
-}
+    margin-left: 400px;
+  }
 
-.plan-icon {
-    height: 70px;
-    weight: 70px;
-}
+  .plannings {
+    align-items: center;
+    background-color: white;
+    
+  }
+
+  .plan-icon1, .plan-icon2, .plan-icon3, .plan-icon4 {
+    height: 80px;
+    weight: 80px;
+  }
+
+  .plan-icon1 {
+    margin-left: 85px;
+    
+  }
+
+  .plan-icon2 {
+    padding-left: 35px;
+  }
+
+  .plan-icon3 {
+    padding-left: 60px;
+  }
+
+  .plan-icon4 {
+    padding-left: 45px;
+  }
+
+  .plan-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .plan-description1, .plan-description2, .plan-description3, .plan-description4 {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+  }
+
+
+  .plan-description1 {
+    padding-left: 55px;
+  }
+
+  .plan-description3 {
+    padding-left: 35px;
+  }
+
+  /* Call Styles */
+
+  .watch {
+    position: absolute;
+    width: 1140px;
+    height: 300px;
+    margin: 140px 380px;   
+  }
+
+  .gradient {
+    position: absolute;
+    width: 1140px;
+    height: 300px;
+    padding: 140px 380px; 
+  }
+
+  .call h2 {
+    position: absolute;
+    padding: 180px 847px 277px 450px;
+    color: white;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 46px;
+  }
+
+  .call-btn {
+    position: absolute;
+    margin: 320px 847px 240px 450px;  
+    padding: 20px 36px; 
+    background: #FFFFFF;
+    border-radius: 5px; 
+    border: none;
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 15px; 
+  }
+
+  /* Contact Styles */
+
+  .contact {
+    top: 3400px;
+    background-color: black;
+    margin-top: 150px;
+    position: absolute;
+    width: 1890px;
+    height: 700px;
+    display: flex;
+  }
+
+  .contact-title {
+    position: absolute;
+    font-weight: 700;
+    font-size: 45px;
+    padding: 130px 1222px 294pc 350px;
+    color: white;
+  }
+
+  .contact-description {
+    position: absolute;
+    padding: 230px 1222px 294pc 350px;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 30px;
+  }
+
+  .email {
+    position: absolute;
+    padding: 370px 1222px 294pc 350px;
+    color: #FFFFFF;
+  }
+
+  .phone {
+    position: absolute;
+    margin: 410px 1222px 294pc 350px;
+    color: #FFFFFF;
+  }
+
+  .icon-photo {
+    gap: 120px;
+  }
+
+  .icon {
+    margin: 480px 1222px 294pc 350px;
+    display: flex;
+    gap: 18px;
+    height: 38px;
+    weight: 38px;
+  }
+
+  .subscribe-title {
+    position: absolute;
+    color: #FFFFFF;
+    margin-top: 170px;
+    margin-left: 100px;
+    font-weight: 600;
+    font-size: 25px;
+    right: 700px;    
+  }
+
+  .email-value {
+    position: absolute;
+    right: 475px;
+    margin-top: 230px;
+    color: #FFFFFF;
+    background-color: black;
+    padding: 22px 158px 22px 22px;
+    border-radius: 5px;
+    border-color: #FFFFFF;
+  }
+
+  .subscribe-button {
+    position: absolute;
+    color: #F15B22;
+    border: 0px;
+    margin-top: 320px;
+    right: 658px;
+    padding: 20px 36px;
+    border-radius: 7px;
+    border: 0ch;
+    background-color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+  }
 
